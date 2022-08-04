@@ -1,0 +1,15 @@
+*.jld
+*.jld2
+*.pdf
+*.zip
+*.mp4
+*.mat
+*.log
+*.aux
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.PNG
+Manifest.toml
+.ipynb_checkpoints

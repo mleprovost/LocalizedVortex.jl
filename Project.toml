@@ -1,0 +1,48 @@
+name = "NlVortexAssim"
+uuid = "5af9c9ff-b48c-45fe-a072-f89f2725395c"
+authors = ["mleprovost <mathow@g.ucla.edu>"]
+version = "0.1.0"
+
+[deps]
+FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
+LowRankApprox = "898213cb-b102-5a47-900c-97e73b919f73"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+OrthoMatchingPursuit = "2ae2181e-4684-4b2c-a413-203f2dd831ec"
+PotentialFlow = "73af2aaf-3f58-5b29-82a9-435ecf827f5b"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+ThreadTools = "dbf13d8f-d36e-4350-8970-f3a99faba1a8"
+TransportBasedInference = "bdf749b0-1400-4207-80d3-e689c0e3f03d"
+
+[extras]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+CartesianGrids = "3e975e5d-2cf8-4263-9573-8460aaf534d9"
+Cubature = "667455a9-e2ce-5579-9412-b964f529a492"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+DocumenterTools = "35a29f4d-8980-5a13-9543-d66fff28ecb8"
+FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+LowRankApprox = "898213cb-b102-5a47-900c-97e73b919f73"
+Measures = "442fdcdd-2543-5da2-b0f3-8c86c306513e"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+Quadrature = "67601950-bd08-11e9-3c89-fd23fb4432d2"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+RigidBodyTools = "befc5f09-81d5-499c-a4b2-d0464ba9f9c8"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+ViscousFlow = "103da179-b3e4-57c1-99a4-586354eb2c5a"
+
+[targets]
+test = ["Cubature", "FastGaussQuadrature", "FiniteDiff", "Plots", "PyPlot", "Quadrature", "Random", "Test"]
