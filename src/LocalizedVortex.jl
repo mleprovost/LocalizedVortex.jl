@@ -1,9 +1,10 @@
 module LocalizedVortex
 
-using TransportBasedInference
 using LinearAlgebra
 using PotentialFlow
 using ProgressMeter
+using TransportBasedInference
+using Statistics
 
 include("vortextools.jl")
 include("state_equation.jl")
