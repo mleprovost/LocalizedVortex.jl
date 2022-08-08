@@ -7,7 +7,6 @@ import TransportBasedInference: Parallel, Serial, Thread
 
 vortex2(X, t, Ny, Nx, config::VortexParams) = vortex2(X, t, Ny, Nx, config, serial)
 
-# ; ϵaggregation1::Float64 = 3e-4, ϵaggregation2::Float64 = 8e-4)
 function vortex2(X, t::Float64, Ny, Nx, config::VortexParams, P::Serial; ϵaggregation1::Float64 = 3e-4, ϵaggregation2::Float64 = 1.5e-3)
 	Nypx, Ne = size(X)
 	@assert Nypx == Ny + Nx "Wrong value of Ny or Nx"
